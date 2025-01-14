@@ -7,10 +7,11 @@
 - Terget: Container Image, Filesystem, Git repo, VM Image, Kubernetes
 - Command: trivy image python:3.4-alpine, trivy k8s --report summary cluster
  
- , clair ar anchore
-	> immutble
-	> minimal base images (alpain, busybox)
-	> signing and verification
+<b>Clair</b> or <b>Anchore</b>
+
+### immutble 
+### minimal base images (alpain, busybox)
+### signing and verification
 
 ## Runtime
 	- Seccomp (Security Compute Mode) - restrict syscolls
