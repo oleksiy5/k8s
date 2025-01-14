@@ -1,9 +1,10 @@
 # Kubernete Security
 
 ## Image
-	> scaning: trivy, clair ar anchore
+### scaning
+	> trivy, clair ar anchore
 	> immutble
-	> minimal base images (alpain, busybx)
+	> minimal base images (alpain, busybox)
 	> signing and verification
 
 ## Runtime
