@@ -1,10 +1,10 @@
-#Kubernete Security
+# Kubernete Security
 
-Image security
-	- scaning: trivy, clair ar anchore
-	- immutble
-	- minimal base images (alpain, busybx)
-	- signing and verification
+# Image
+	> scaning: trivy, clair ar anchore
+	> immutble
+	> minimal base images (alpain, busybx)
+	> signing and verification
 
 Runtime
 	- Seccomp (Security Compute Mode) - restrict syscolls
