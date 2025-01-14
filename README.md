@@ -11,6 +11,12 @@
 
 ### Immutability, container and pod level enforcement
 
+Immutable Containers: Containers should be built in such a way that their environment, configuration, and file system cannot be modified after they start. Once a container is running, you can restrict changes by mounting volumes as read-only or by preventing changes to files and configurations.
+
+Immutable Container Images: Containers are typically run from immutable images. These images should not be changed once they're created. Instead, a new image is built and deployed when updates are necessary.
+
+Read-only File Systems: You can configure containers to use a read-only file system, ensuring that no changes can be made to the container during runtime, preventing unauthorized modifications.
+
 ### minimal base images (alpain, busybox)
 ### signing and verification
 
