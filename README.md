@@ -9,7 +9,8 @@
  
 <b>Clair</b> or <b>Anchore</b>
 
-### immutble 
+### Immutability, container and pod level enforcement
+
 ### minimal base images (alpain, busybox)
 ### signing and verification
 
