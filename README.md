@@ -3,9 +3,9 @@
 ## Image
 ### scaning
 > Trivy
-	- Scanners that look for security issues, and targets where it can find those issues.
-	- Terget: Container Image, Filesystem, Git repo, VM Image, Kubernetes
-	- Command: trivy image python:3.4-alpine, trivy k8s --report summary cluster
+> -Scanners that look for security issues, and targets where it can find those issues.
+> -Terget: Container Image, Filesystem, Git repo, VM Image, Kubernetes
+> -Command: trivy image python:3.4-alpine, trivy k8s --report summary cluster
  
  , clair ar anchore
 	> immutble
